@@ -8,7 +8,7 @@ import * as ROUTES from '../constants/routes'
 import logo from '../logo.svg'
 
 export function BrowseContainer({slides}) {
-    const [category, setCategoty] = useState('series')
+    const [category, setCategoty] = useState('films')
     const [searchTerm, setSearchTerm] = useState('')
     const [profile, setProfile] = useState({})
     const [loading, setLoading] = useState(true)
